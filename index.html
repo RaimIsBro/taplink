@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Продажа новогодних ёлок</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ELKISHOPKZ</title>
+    <style>
+        /* Сброс базовых стилей */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Градиентный фон */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        /* Логотип */
+        .logo {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #ff0000; /* Красный цвет */
+            text-shadow: 
+                2px 2px 4px rgba(0, 0, 0, 0.5), /* Тень */
+                0 0 10px #ff4500, /* Светящийся эффект */
+                0 0 20px #ff6347;
+        }
+
+        .logo .green {
+            color: #00ff00; /* Зелёный цвет */
+            text-shadow: 
+                2px 2px 4px rgba(0, 0, 0, 0.5), 
+                0 0 10px #32cd32, 
+                0 0 20px #00fa9a;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Продажа новогодних ёлок</h1>
-        <p>Украсьте свой дом настоящей атмосферой праздника!</p>
-    </header>
-    <section class="catalog">
-        <h2>Наш ассортимент</h2>
-        <div class="product">
-            <img src="tree1.jpg" alt="Ель искусственная">
-            <h3>Искусственная ель</h3>
-            <p>Цена: 5000 руб.</p>
-            <button>Купить</button>
-        </div>
-        <div class="product">
-            <img src="tree2.jpg" alt="Ель натуральная">
-            <h3>Натуральная ель</h3>
-            <p>Цена: 3000 руб.</p>
-            <button>Купить</button>
-        </div>
-        <div class="product">
-            <img src="tree3.jpg" alt="Ель с гирляндами">
-            <h3>Ель с гирляндами</h3>
-            <p>Цена: 7000 руб.</p>
-            <button>Купить</button>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 Продажа ёлок. Все права защищены.</p>
-    </footer>
+    <div class="logo">
+        <span>ELKI</span><span class="green">SHOP</span><span>KZ</span>
+    </div>
 </body>
 </html>
